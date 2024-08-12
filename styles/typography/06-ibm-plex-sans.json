@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "IBM Plex Sans",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "IBM Plex Sans",
+					"slug": "ibm-plex-sans",
+					"fontFamily": "\"IBM Plex Sans\", sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/ibm-plex-sans/zYXgKVElMYYaJe8bpLHnCwDKtdPUFI5NadY.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "\"IBM Plex Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/ibm-plex-sans/zYX9KVElMYYaJe8bpLHnCwDKjSL9MINmdd_qFmo.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "\"IBM Plex Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/ibm-plex-sans/zYX9KVElMYYaJe8bpLHnCwDKjQ76MINmdd_qFmo.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "\"IBM Plex Sans\""
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+				  "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)"
+				}
+			  }
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)"
+		}
+	}
+}
