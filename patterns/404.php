@@ -3,7 +3,6 @@
  * Title: 404 page
  * Slug: compendium/404
  * Inserter: no
- * Categories: compendium-patterns
  */
 ?>
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"40px","bottom":"40px"}}},"layout":{"type":"constrained"}} -->

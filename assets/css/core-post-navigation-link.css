@@ -1,0 +1,22 @@
+.cmb-post-navigation {
+    border: 1px solid #333 !important;
+    border-radius: 4px !important;
+}
+
+.is-style-nav-block.post-navigation-link-previous {
+    padding: 20px;
+    border-right: 1px solid #333;
+    min-height: 28px;
+}
+
+.is-style-nav-block.post-navigation-link-next {
+    padding: 20px;
+    min-height: 28px;
+}
+
+
+@media only screen and (max-width: 601px) {
+	.cmb-post-navigation .wp-block-group {
+		border-right: 0;
+	}
+}

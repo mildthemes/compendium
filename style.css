@@ -5,33 +5,9 @@ Description: A portfolio block theme for developers and designers
 Requires at least: 6.5
 Tested up to: 6.6
 Requires PHP: 7.0
-Version: 1.0
+Version: 1.0.1
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: compendium
 Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, threaded-comments, translation-ready, wide-blocks, portfolio
 */
-
-@media only screen and (max-width: 801px) {
-    .wp-block-group-is-layout-grid {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
-    .is-style-posts div {
-        display: block;
-        text-align: center;
-    }
-    .author-bio {
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 601px) {
-    .wp-block-group.entry-header {
-        padding-top: 32px !important;
-        padding-bottom: 32px !important;
-    }
-    .is-layout-grid > * {
-        display: block;
-        text-align: center;
-    }
-}

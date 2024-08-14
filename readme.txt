@@ -15,6 +15,15 @@ WordPress portfolio block theme for developers & designers
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed broken block in footer
+* Categorized patterns
+* Underline added for headings
+* Removed front-page template
+* Moved basic styling to assets/css/style.css
+* Redid posts pattern
+* Restyled sub-menu
+
 = 1.0.0 =
 * Initial release
 

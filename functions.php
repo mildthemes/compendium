@@ -10,7 +10,7 @@ if ( ! function_exists( 'compendium_setup' ) ) {
 		load_theme_textdomain( 'compendium', get_template_directory() . '/languages' );
 
 		// Enqueue editor stylesheet
-		add_editor_style( get_template_directory_uri() . '/style.css' );
+		add_editor_style( get_template_directory_uri() . '/assets/css/style.css' );
 
 		// Remove core block patterns, we don't need that
 		remove_theme_support( 'core-block-patterns' );
@@ -24,7 +24,7 @@ add_action( 'after_setup_theme', 'compendium_setup' );
  */
 function compendium_enqueue_stylesheet() {
 
-	wp_enqueue_style( 'compendium', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'compendium-style', get_template_directory_uri() . '/assets/css/style.css', array(), wp_get_theme()->get( 'Version' ) );
 
 }
 add_action( 'wp_enqueue_scripts', 'compendium_enqueue_stylesheet' );
@@ -35,17 +35,55 @@ add_action( 'wp_enqueue_scripts', 'compendium_enqueue_stylesheet' );
 function compendium_register_block_pattern_categories() {
 
 	register_block_pattern_category(
-		'compendium-patterns',
+		'compendium-pages',
 		array(
-			'label'       => __( 'Compendium', 'compendium' ),
-			'description' => __( 'Patterns included with the compendium theme', 'compendium' ),
+			'label'       => __( 'Pages', 'compendium' ),
+			'description' => __( 'Full page patterns included with the compendium theme', 'compendium' ),
+		)
+	);
+	register_block_pattern_category(
+		'compendium-headers',
+		array(
+			'label'       => __( 'Headers', 'compendium' ),
+			'description' => __( 'Header patterns included with the compendium theme', 'compendium' ),
+		)
+	);
+
+	register_block_pattern_category(
+		'compendium-heroes',
+		array(
+			'label'       => __( 'Heroes', 'compendium' ),
+			'description' => __( 'Hero patterns included with the compendium theme', 'compendium' ),
+		)
+	);
+
+	register_block_pattern_category(
+		'compendium-footers',
+		array(
+			'label'       => __( 'Footers', 'compendium' ),
+			'description' => __( 'Footer patterns included with the compendium theme', 'compendium' ),
+		)
+	);
+
+	register_block_pattern_category(
+		'compendium-posts',
+		array(
+			'label'       => __( 'Posts', 'compendium' ),
+			'description' => __( 'Post patterns included with the compendium theme', 'compendium' ),
+		)
+	);
+
+	register_block_pattern_category(
+		'compendium-portfolios',
+		array(
+			'label'       => __( 'Portfolios', 'compendium' ),
+			'description' => __( 'Portfolio patterns included with the compendium theme', 'compendium' ),
 		)
 	);
 
 }
 
 add_action( 'init', 'compendium_register_block_pattern_categories' );
-
 
 /**
  * Add block style variations
@@ -58,6 +96,9 @@ function compendium_register_block_styles() {
 		),
 		'core/categories' => array(
 			'category-block' => __( 'Compendium', 'compendium' ),
+		),
+		'core/post-navigation-link' => array(
+			'nav-block' => __( 'Compendium', 'compendium' ),
 		),
 	);
 
