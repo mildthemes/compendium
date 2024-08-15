@@ -313,33 +313,41 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "\"IBM Plex Sans\"",
+							"fontFamily": "DM Sans",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/dm-sans/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhS2f3ZGMZpg.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/ibm-plex-sans/zYXgKVElMYYaJe8bpLHnCwDKtdPUFI5NadY.woff2"
+								"file:./assets/fonts/dm-sans/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhS2f3ZGMZpg.woff2"
 							]
 						},
 						{
-							"fontFamily": "\"IBM Plex Sans\"",
+							"fontFamily": "DM Sans",
 							"fontStyle": "normal",
 							"fontWeight": "500",
 							"src": [
-								"file:./assets/fonts/ibm-plex-sans/zYX9KVElMYYaJe8bpLHnCwDKjSL9MINmdd_qFmo.woff2"
+								"file:./assets/fonts/dm-sans/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhS2f3ZGMZpg.woff2"
 							]
 						},
 						{
-							"fontFamily": "\"IBM Plex Sans\"",
+							"fontFamily": "DM Sans",
 							"fontStyle": "normal",
 							"fontWeight": "600",
 							"src": [
-								"file:./assets/fonts/ibm-plex-sans/zYX9KVElMYYaJe8bpLHnCwDKjQ76MINmdd_qFmo.woff2"
+								"file:./assets/fonts/dm-sans/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthS2f3ZGMZpg.woff2"
 							]
 						}
 					],
-					"fontFamily": "\"IBM Plex Sans\", sans-serif",
-					"name": "IBM Plex Sans",
-					"slug": "ibm-plex-sans"
+					"fontFamily": "DM Sans, sans-serif",
+					"name": "DM Sans",
+					"slug": "dm-sans"
 				}
 			],
 			"fontSizes": [
@@ -897,7 +905,7 @@
 					"text": "var(--wp--preset--color--secondary)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
 					"fontWeight": "var(--wp--custom--font-weight--regular)",
 					"lineHeight": "var(--wp--custom--line-height--heading)"
 				}
@@ -926,7 +934,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)",
 			"fontSize": "var(--wp--preset--font-size--x-small)",
 			"fontWeight": "var(--wp--custom--font-weight--light)",
 			"lineHeight": "var(--wp--custom--line-height--body)"

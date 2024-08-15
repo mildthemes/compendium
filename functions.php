@@ -15,6 +15,10 @@ if ( ! function_exists( 'compendium_setup' ) ) {
 		// Remove core block patterns, we don't need that
 		remove_theme_support( 'core-block-patterns' );
 
+		// Theme notice
+		require_once( trailingslashit( get_template_directory() ) . 'includes/theme-notice.php' );
+
+
 	}
 }
 add_action( 'after_setup_theme', 'compendium_setup' );
@@ -28,6 +32,16 @@ function compendium_enqueue_stylesheet() {
 
 }
 add_action( 'wp_enqueue_scripts', 'compendium_enqueue_stylesheet' );
+
+
+
+/**
+ * Enqueue theme notice stylesheet
+ */
+function compendium_scripts_admin( $hook ) {
+	wp_enqueue_style( 'compendium-admin-notice', get_template_directory_uri() . '/admin/css/admin-notice.css', array(), wp_get_theme()->get( 'Version' ) );
+}
+add_action( 'admin_enqueue_scripts', 'compendium_scripts_admin' );
 
 /**
  * Block pattern category
@@ -141,3 +155,4 @@ function compendium_enqueue_custom_block_styles() {
 	}
 }
 add_action( 'init', 'compendium_enqueue_custom_block_styles' );
+

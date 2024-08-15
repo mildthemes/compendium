@@ -15,6 +15,11 @@ WordPress portfolio block theme for developers & designers
 
 == Changelog ==
 
+= 1.0.2 =
+* Fixed default font
+* Added theme admin notice
+* Added theme & author URI
+
 = 1.0.1 =
 * Fixed broken block in footer
 * Categorized patterns
