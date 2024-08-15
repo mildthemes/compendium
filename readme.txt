@@ -15,6 +15,10 @@ WordPress portfolio block theme for developers & designers
 
 == Changelog ==
 
+= 1.0.3 =
+* Updated screenshot
+* Added 'style-variations' in style.css tags
+
 = 1.0.2 =
 * Fixed default font
 * Added theme admin notice
