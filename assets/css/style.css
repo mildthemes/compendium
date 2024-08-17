@@ -1,3 +1,98 @@
+/* Defaults
+---------------------------------------- */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="submit"],
+textarea:focus,
+.wp-element-button {
+	transition: all 0.2s ease-in-out;
+}
+
+a,
+a:focus,
+a:hover,
+a:not(.wp-element-button) {
+	text-decoration-thickness: 1px;
+}
+
+b,
+strong,
+th {
+	font-weight: var(--wp--custom--font-weight--medium);
+}
+
+mark {
+	background: linear-gradient(90deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--primary) 100%);
+	background-position: 0 85%;
+	background-repeat: repeat-x;
+	background-size: 100% 15%;
+}
+
+input,
+select,
+textarea {
+	background-color: var(--wp--preset--color--base);
+	border: 1px solid var(--wp--preset--color--contrast);
+	border-radius: 0;
+	color: var(--wp--preset--color--secondary);
+	font-family: var(--wp--preset--font-family--primary);
+	font-size: var(--wp--preset--font-size--medium);
+	font-weight: var(--wp--custom--font-weight--light);
+	line-height: var(--wp--custom--line-height--body);
+	padding: 10px 20px;
+	width: 100%;
+    border-radius: 2px;
+}
+
+input:focus,
+textarea:focus {
+	background-color: var(--wp--preset--color--primary);
+	outline: none;
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+input[type="button"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="text"],
+textarea {
+	-webkit-appearance: none;
+}
+
+::placeholder {
+	color: var(--wp--preset--color--contrast);
+	font-size: var(--wp--preset--font-size--small);
+	opacity: 0.5;
+}
+
+/* Blocks
+---------------------------------------- */
+
+*:not(.wp-block-code) > code {
+	background-color: var(--wp--preset--color--neutral);
+	font-size: var(--wp--preset--font-size--small);
+	padding: 5px 8px;
+}
+
 .wp-block-query-pagination.block-editor-block-list__layout {
     margin-top: var(--wp--preset--spacing--x-small) !important; 
 }
@@ -17,6 +112,10 @@
 
 .cmb-query .wp-block-post:last-child {
     border-bottom: 0;
+}
+
+.wp-block-post-comments-form .comment-form textarea {
+    margin-top: 1em;
 }
 
 @media only screen and (max-width: 801px) {

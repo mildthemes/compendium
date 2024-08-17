@@ -15,10 +15,15 @@ WordPress portfolio block theme for developers & designers
 
 == Changelog ==
 
+= 1.0.3 =
+* Updated screenshot
+* Added missing style for input forms
+* Line height changed for headings
+
 = 1.0.2 =
 * Fixed default font
 * Added theme admin notice
-* Added theme & author URI
+* Added Theme & Author URI
 
 = 1.0.1 =
 * Fixed broken block in footer
