@@ -15,10 +15,6 @@ if ( ! function_exists( 'compendium_setup' ) ) {
 		// Remove core block patterns, we don't need that
 		remove_theme_support( 'core-block-patterns' );
 
-		// Theme notice
-		require_once( trailingslashit( get_template_directory() ) . 'includes/theme-notice.php' );
-
-
 	}
 }
 add_action( 'after_setup_theme', 'compendium_setup' );

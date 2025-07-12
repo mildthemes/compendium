@@ -1,31 +1,32 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Blue",
+	"title": "Light Purple",
 	"settings": {
 		"color": {
-			"palette": [
+	"palette": [
 				{
-					"color": "#1B3A57",
+					"color": "#E6D9EF",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#365878",
+					"color": "#A279C1",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#88A3BC",
+					"color": "#582183",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#DEE6EE",
+					"color": "#3B0764",
 					"name": "Secondary",
 					"slug": "secondary"
 				}
 			]
+
 		}
 	}
 }

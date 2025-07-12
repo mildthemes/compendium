@@ -10,7 +10,7 @@
 <div class="wp-block-group" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"grid","columnCount":"2","minimumColumnWidth":null}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"left","metadata":{"name":"Footer credits"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"textColor":"secondary","fontSize":"x-small"} -->
 <p class="has-text-align-left has-secondary-color has-text-color has-link-color has-x-small-font-size">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?>  •
-<?php echo esc_html__('Powered by WordPress', 'compendium'); ?> &amp; <a href="https://mildthemes.co/compendium-wordpress-theme/" target="_blank"><?php echo esc_html__('Compendium', 'compendium'); ?></a></p>
+<?php echo esc_html__('Powered by WordPress', 'compendium'); ?> &amp; <a href="https://naeemnur.com/themes/compendium/" target="_blank"><?php echo esc_html__('Compendium', 'compendium'); ?></a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"right","metadata":{"name":"Links"},"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}},"typography":{"fontSize":"14px","letterSpacing":"0px"}},"textColor":"secondary"} -->

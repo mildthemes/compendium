@@ -15,6 +15,11 @@ WordPress portfolio block theme for developers & designers
 
 == Changelog ==
 
+= 1.0.4 =
+* Removed theme notice 
+* Added new color palettes
+* Added patterns
+
 = 1.0.3 =
 * Updated screenshot
 * Added missing style for input forms

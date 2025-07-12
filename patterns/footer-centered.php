@@ -13,7 +13,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"secondary","fontSize":"x-small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-x-small-font-size">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> • <?php echo esc_html__('Powered by WordPress', 'compendium'); ?> &amp; <a href="https://mildthemes.co/compendium-wordpress-theme/" target="_blank" rel="noreferrer noopener"><strong><?php echo esc_html__('Compendium', 'compendium'); ?></strong></a></p>
+<p class="has-text-align-center has-secondary-color has-text-color has-link-color has-x-small-font-size">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> • <?php echo esc_html__('Powered by WordPress', 'compendium'); ?> &amp; <a href="https://naeemnur.com/themes/compendium/" target="_blank" rel="noreferrer noopener"><strong><?php echo esc_html__('Compendium', 'compendium'); ?></strong></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
